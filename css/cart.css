@@ -1,0 +1,165 @@
+body {
+  font-family: Arial, sans-serif;
+  margin-left: 6%;
+  margin-top: 0;
+  padding: 0;
+  width: 90%;
+}
+
+header .promo {
+  background-color: #2f2f2f;
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+  font-size: 14px;
+}
+
+header .promo a {
+  color: white;
+  text-decoration: underline;
+  margin-left: 20px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo-g {
+  color: black;
+}
+
+.logo-s {
+  color: #1e90ff;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+}
+
+.contact .phone a {
+  text-decoration: none;
+  color: #333;
+  margin-right: 20px;
+}
+
+.contact .icons a {
+  margin-left: 10px;
+}
+
+.contact .icons img {
+  width: 24px;
+  height: 24px;
+}
+
+.container {
+  display: flex;
+  padding: 20px;
+}
+
+/* Add this CSS to your styles */
+.cart-item {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 15px 0;
+}
+
+.product-image {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.product-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-name {
+  font-size: 18px;
+  margin: 0;
+}
+
+.product-brand {
+  font-size: 14px;
+  color: #757575;
+  margin: 5px 0 0 0;
+}
+
+.product-price {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.delete-button {
+  color: #ff0000;
+  cursor: pointer;
+}
+
+.total-price-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.total-price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.order-button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.continue-button {
+  background-color: #f0f0f0;
+  color: #000;
+}
