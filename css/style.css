@@ -1,9 +1,9 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Inter";
   margin-left: 6%;
   margin-top: 0;
   padding: 0;
-  width: 90%;
+  width: 100%;
 }
 
 header .promo {
@@ -12,12 +12,15 @@ header .promo {
   text-align: center;
   padding: 5px 0;
   font-size: 14px;
+  width: 100%;
+
 }
 
 header .promo a {
   color: white;
   text-decoration: underline;
   margin-left: 20px;
+
 }
 
 .header-container {
@@ -113,7 +116,7 @@ nav ul li a {
 }
 
 .products {
-  width: 80%;
+  width: 100%;
   padding-left: 20px;
 }
 
